@@ -1,0 +1,18 @@
+.header-body {
+  top: 0;
+  width: 100%;
+  max-width: 1080px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c9c9c9;
+  background-color: #fff;
+  .header {
+    padding: 10px 20px;
+    &-name {
+      font-size: 35px;
+      font-weight: bold;
+    }
+    &-icon {
+      cursor: pointer;
+    }
+  }
+}
